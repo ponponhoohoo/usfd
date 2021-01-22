@@ -1,0 +1,49 @@
+@charset "utf-8";
+@import '_setting';
+
+// Media Queries
+@mixin mediaquery-pc {
+  @media only screen and (min-width: $width-pc) {
+    @content;
+  }
+}
+
+@mixin mediaquery-tablet {
+  @media only screen and (max-width: $width-tablet) {
+    @content;
+  }
+}
+
+@mixin mediaquery-smartphone {
+  @media only screen and (max-width: $width-smartphone) {
+    @content;
+  }
+}
+
+@mixin link_color($color) {
+     color: $color;
+
+     &:hover, &:active, &:focus {
+         color: lighten($color, 20%);
+     }
+}
+
+@mixin border_radius($value)
+{
+  -webkit-border-radius: $value;
+  -moz-border-radius: $value;
+  border-radius: $value;
+}
+
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
+
+@mixin box-sizing(){
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}

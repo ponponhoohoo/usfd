@@ -1,0 +1,29 @@
+@charset "utf-8";
+//size
+$max_width:1300px;
+
+//navi max
+$navi_max:5;
+
+////////////////////////
+$text_color:#000;
+$bg_color:#FFF;
+$sub_bg_color:#000;
+$border_color:#cccccc;
+$main_color:#007BFF;
+$sub_color:#2b2d42;
+$link_color:#333333;
+$hover_color:#333333;
+
+
+/////////////////////////
+// breakpoint
+$width-pc: 1064px;
+$width-tablet: 1064px;
+$width-smartphone: 1064px;
+$width-scrollbar: 20px;
+
+/////////////////////////
+// base font size
+$base_per_font_size:62.5%;
+$base_rem_font_size:1.4rem;

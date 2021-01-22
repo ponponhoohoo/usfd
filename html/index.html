@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1,minimum-scale=1">
+	<meta name="description" content="">
+	<title></title>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/reset.css" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+	<link href="css/sp.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+	<link rel="stylesheet" href="https://unpkg.com/scroll-hint@1.1.10/css/scroll-hint.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/object-fit-images/3.2.3/ofi.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script src="https://unpkg.com/scroll-hint@1.1.10/js/scroll-hint.js"></script>
+	<script src="js/respond.src.js"></script>
+	<script src="js/common.js"></script>
+</head>
+<body class="top">
+<script>
+	$(window).on('load', function () { // 読み込み完了したら実行する
+	    $('.page_cover').delay(1000).queue(function() {
+		    $(this).addClass("close").dequeue();
+		});
+		$('.page_cover .inner img').delay(1100).queue(function() {
+		    $(this).addClass("logo_anime").dequeue();
+		});
+	});
+</script>
+<!-- <div class="page_cover">
+	<div class="inner">
+		<img src="img/logo.png" alt="" class="">
+	</div>
+</div> -->
+	<!-- header -->
+	<header>
+		<div class="pc_none">
+			<div class="sp_tel pc_none"><a href="tel:0782039052"><i class="fa fa-phone" aria-hidden="true"></i></a></div>
+			<div id="nav-drawer">
+				<input id="nav-input" type="checkbox" class="nav-unshown">
+				<label id="nav-open" for="nav-input"><span></span><span></span><span></span></label>
+				<label class="nav-unshown" id="nav-close" for="nav-input"></label>
+				<div id="nav-content">
+					<div class="box">
+						<ul>
+							<li><a href="">HOME</a></li>
+							<li><a href="">企業情報</a></li>
+							<li><a href="">製品一覧</a></li>
+							<li><a href="">取扱メーカー</a></li>
+							<li><a href="">ケースレポート</a></li>
+							<li><a href="">新商品</a></li>
+							<li><a href="">学会・展示会情報</a></li>
+							<li><a href="">JSS TV</a></li>
+							<li><a href="">採用情報</a></li>
+							<li><a href="">海外情報</a></li>
+							<li><a href="">CSR活動</a></li>
+							<li><a href="">お問い合わせ</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- header -->
+
+<script type="text/javascript">
+$(function() {
+
+	$('.main_slide').fadeIn(0);
+	$('.main_slide').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		dots:true,
+		fade:true,
+		autoplay: true,
+		autoplaySpeed: 2500,
+		responsive: [
+		{
+			    breakpoint: 480, //767px以下のサイズに適用
+			    settings: {
+			    	dots: false
+			    }
+			}
+			]
+		});
+});
+</script>
+
+<div class="content">
+	<div class="main">
+		<header class="bg-slider top__header">
+			<section class="slide_content">
+				<h1 class="sub_ttl">
+					コンパクト・1kg未満ながら<br>多機能性を備えた超音波探傷器
+				</h1>
+				<div class="outer">
+					<figure>
+						<img src="img/top-product.png" alt="">
+					</figure>
+					<div class="txt">
+						<section>
+							<h2 class="copy">
+								ポータブル超音波探傷器<br>
+								<span>USFD-20</span>
+							</h2>
+							<a href="" class="btn">製品情報について詳しく</a>
+						</section>
+					</div>
+				</div>
+			</section>
+			
+			<div class="tagline">
+				<div class="logo">
+					<img src="img/logo.png" alt="">
+				</div>
+				<nav class="sp_none">
+					<ul class="yumincho" id="pc_nav">
+						<li>
+							<a href="" class="child">製品情報</a>
+							<div class="pc_dropdown">
+								<div class="business">
+									<div class="group w60">
+										<div class="inner">
+											<div class="box">
+												<p class="cat_ttl">ガス機器事業</p>
+												<p class="nav__ttl">LPGベーパライザー</p>
+												<dl>
+													<dt><a href="">アスリート</a></dt>
+													<dt><a href="">セイビースト</a></dt>
+													<dt><a href="">ミニマム</a></dt>
+													<dt><a href="">ペーパーウルトラ</a></dt>
+													<dt><a href="">ペーパーブルー</a></dt>
+													<dt><a href="">ペーパーゴールドミキサー</a></dt>
+													<dt><a href="">ペーパーミキサー</a></dt>
+												</dl>
+												<p class="nav__ttl">LNGベーパライザー</p>
+												<dl>
+													<dt><a href="">ナチュライザイー</a></dt>
+												</dl>
+												<p class="nav__ttl">アンモニアベーパライザー</p>
+												<dl>
+													<dt><a href="">アンモニアベーパライザー</a></dt>
+												</dl>
+											</div>
+											<div class="box">
+												<p class="nav__ttl">ベーパライザーユニット</p>
+												<dl>
+													<dt><a href="">バイオ</a></dt>
+													<dt><a href="">e-バイオ</a></dt>
+													<dt><a href="">バルクユンポ</a></dt>
+													<dt><a href="">ラージユンポ</a></dt>
+												</dl>
+												<p class="nav__ttl">簡易スタンド</p>
+												<dl>
+													<dt><a href="">オートコンポ</a></dt>
+												</dl>
+												<p class="nav__ttl">カクシュバルブ</p>
+												<dl>
+													<dt><a href="">LR</a></dt>
+													<dt><a href="">バラフロー</a></dt>
+													<dt><a href="">ピュアフロー</a></dt>
+													<dt><a href="">KRシリーズ</a></dt>
+												</dl>
+											</div>
+										</div>
+									</div>
+									<div class="group w20">
+										<p class="cat_ttl">ガスプラント事業</p>
+										<dl>
+											<dt><a href="">設計/施行</a></dt>
+											<dt><a href="">定期自主検査/開放検査</a></dt>
+											<dt><a href="">指定保安検査</a></dt>
+										</dl>
+										<p class="cat_ttl"><a href="">非常用事業</a></p>
+										<p class="cat_ttl">災害対策事業</p>
+										<dl>
+											<dt><a href="">非常用タンク</a></dt>
+											<dt><a href="">浄水器</a></dt>
+											<dt><a href="">貯蔵庫</a></dt>
+										</dl>
+									</div>
+									<div class="group w20">
+										<p class="cat_ttl">感染対策事業</p>
+										<dl>
+											<dt><a href="">設計/施行</a></dt>
+											<dt><a href="">定期自主検査/開放検査</a></dt>
+										</dl>
+										<p class="cat_ttl"><a href="">海外事業</a></p>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li><a href="">お問い合わせ</a></li>
+						<li><a href="">KJTD公式サイト</a></li>
+						<li><a href="">カタログダウンロード</a></li>
+						<li><a href=""><span><i class="fa fa-user-o" aria-hidden="true"></i></span> ユーザー新規登録／マイページ</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="main_img">
+				<div class="slide_wrapper">
+					<ul class="main_slide">
+						<li><img src="img/main-v-1.jpg" alt=""></li>
+						<li><img src="img/main-v-2.jpg" alt=""></li>
+						<li><img src="img/main-v-3.jpg" alt=""></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<!-- header -->
+
+		<main>
+			<div class="wrapper">
+				<div class="content_block fadeIn wow" data-wow-duration="2s">
+					<h2 class="ttl">ポータブル超音波探傷器<br><span>USFD-20</span></h2>
+					<section class="top__recommend">
+						<div class="box">
+							<figure>
+								<img src="img/top-product.png" alt="">
+							</figure>
+							<section>
+								<ul>
+									<li>コンパクトなボディーに優れた探傷性能を搭載</li>
+									<li>さまざまな検査環境に対応したポータブル設計</li>
+									<li>簡単操作、堅牢設計</li>
+									<li>鮮明なフルVGAディスプレイ</li>
+								</ul>
+								<a href="" class="btn">製品情報について詳しく</a>
+							</section>
+						</div>
+					</section>
+				</div>
+			</div>
+		</main>
+		<!-- main -->
+
+		
+<div class="common_contact">
+	<div class="wrapper">
+		<h2 class="ttl"><span class="ProstoOne">Contact</span></h2>
+		<p class="center mb_20">
+			商品についてのご質問やお見積りなど、お問い合わせはこちらからお願いいたします。
+		</p>
+		<section class="box">
+			<div class="left">
+				<div class="outer">
+					<h3 class="sub_ttl">お電話でのお問い合わせ</h3>
+					<p class="service">	
+						<span class="tel">
+							<i class="fa fa-phone" aria-hidden="true"></i> 000-0000-0000
+						</span>
+						<span class="time"><br class="pc_none">平日9時～17時</span>
+					</p>
+				</div>
+			</div>
+			<div class="right">
+				<a href="" class="btn">
+					<div class="outer">
+						<p>メールでのお問い合わせ<br>
+						<span><i class="fa fa-envelope-o" aria-hidden="true"></i> メールフォームへ</span>
+						</p>
+					</div>
+				</a>
+			</div>
+		</section>
+	</div>
+</div>
+
+<footer class="wow fadeIn" data-wow-duration="3.0s">
+	<div class="wrapper">
+		<ul class="link">
+			<li><a href="">製品情報</a></li>
+			<li><a href="">KJTD公式サイト</a></li>
+			<li><a href="">カタログダウンロード</a></li>
+			<li><a href=""><span><i class="fa fa-user-o" aria-hidden="true"></i></span> ユーザー新規登録／マイページ</a></li>
+		</ul>
+
+		<div class="logo">
+			<img src="img/logo.png" alt="">
+			<p><a href="">株式会社KJTD公式サイト</a></p>
+		</div>
+		
+		<address class="yumincho">
+			株式会社KJTD<br>〒170-6045 東京都豊島区東池袋3丁目1番1号 サンシャイン60 45階
+		</address>
+		<p class="copy yumincho">Copyright (C) KAGLA VAPOTECH CORP. All Rights Reserved.</p>
+	</div>
+</footer>
+
+</body>
+</html>
