@@ -1,5 +1,15 @@
 @charset "UTF-8";
 @media only screen and (max-width: 1064px) {
+  .faq .icon_nav:before {
+    content: "";
+    display: block;
+    width: 32%;
+    height: 0;
+    order: 1;
+  }
+  .faq .icon_nav li {
+    width: 32%;
+  }
   .accessories article {
     width: 100%;
     display: flex;
@@ -1041,6 +1051,47 @@
 }
 
 @media screen and (max-width: 764px) {
+  .user_box {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .user_box .left {
+    width: 100%;
+  }
+  .user_box .left nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .user_box .left nav ul li {
+    width: 48%;
+    position: relative;
+  }
+  .user_box .left nav ul li:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    color: #007BFF;
+  }
+  .user_box .left nav ul li a {
+    display: block;
+    padding-left: 32px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCC;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 104%;
+    line-height: 1.6;
+    text-align: left;
+  }
+  .user_box .right {
+    width: 100%;
+    margin-bottom: 20px;
+  }
   .top__recommend .box {
     display: flex;
     flex-wrap: wrap;
@@ -1576,6 +1627,13 @@
 }
 
 @media screen and (max-width: 480px) {
+  .user_box {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .user_box .left nav ul li {
+    width: 100%;
+  }
   .feat__detail {
     padding-top: 50px;
   }
